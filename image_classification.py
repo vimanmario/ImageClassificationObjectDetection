@@ -2,7 +2,7 @@ import numpy as np
 import time
 import cv2
 
-base_path = r"C:\Users\Viman Mario\Desktop\FACULTATE\Master\Sisteme dedicate pentru IoT\Proiect"
+base_path = r"C:\Users\Viman Mario\Desktop\FACULTATE\Master\Sisteme dedicate pentru IoT\Proiect\ImageClassificationModel"
 
 image_path = base_path + r"\persianCat.png"
 label_path = base_path + r"\classification_classes_ILSVRC2012.txt"
