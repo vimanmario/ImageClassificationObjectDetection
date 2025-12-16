@@ -15,8 +15,8 @@ conf_limit = 0.25
 CLASSIFICATION_INTERVAL = 30  # Clasifică o dată la 30 de frame-uri (pentru performanță)
 
 DETECTION_CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
-                     "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", 
-                     "dog", "horse", "motorbike", "person", "pottedplant", "sheep", 
+                     "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
+                     "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
                      "sofa", "train", "tv/monitor"]
 
 COLORS = np.random.uniform(0, 255, size=(len(DETECTION_CLASSES), 3))
